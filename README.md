@@ -11,7 +11,20 @@ Each query is saved as a runnable `.sql` file, organised by topic, to track what
 
 ## Setup
 
-This book uses **PostgreSQL**. Queries are written and run in DBeaver connected to a local or cloud PostgreSQL instance.
+This book uses **PostgreSQL**. Queries are written and run in DBeaver connected to a local PostgreSQL 16 instance (installed via Homebrew).
+
+### Database
+
+Practice queries run against the **Pagila** database — a DVD rental store sample dataset with 22 tables including `film`, `customer`, `rental`, `payment`, `staff`, and `inventory`. Loaded locally into PostgreSQL.
+
+| Table | Contents |
+|---|---|
+| `film` | 1,000 films with titles, descriptions, ratings, rental rates |
+| `customer` | Customer records with addresses |
+| `rental` | Rental transactions with dates |
+| `payment` | Payment records partitioned by month |
+| `actor`, `category` | Film metadata |
+| `staff`, `store`, `inventory` | Store operations |
 
 ## Progress
 
