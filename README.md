@@ -30,6 +30,11 @@ Practice queries run against the **Pagila** database — a DVD rental store samp
 
 | Date | Topic | What I practiced |
 |---|---|---|
+| June 2026 | Chapter 2 — Preparing Data for Analysis | LIMIT, subqueries, sampling (MOD, RIGHT), COUNT vs COUNT DISTINCT, frequency distributions, CASE binning, ROUND binning, NTILE, PERCENT_RANK, duplicate detection (3 methods), JOIN as filter, DISTINCT and GROUP BY deduplication, MIN/MAX aggregation, CASE for value standardisation, binary flags, MAX CASE flattening, type casting (::, CAST, to_char), NULL vs empty string, COALESCE, NULLIF, fill forward with LAG, generate_series |
+
+## Stopped at
+
+**Chapter 2 complete** (June 2026). Pausing this book to work through *Learning SQL* by Alan Beaulieu for a more grounded understanding of SQL fundamentals. Will return to Chapter 3 (Dates and Times) after.
 
 ---
 
